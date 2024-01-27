@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="beb8a310-1a80-468a-ba9d-e9fce81a211c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset_Absensi" uuid="58297462-16c3-4572-8be2-0b7d0c173e3b">
+		<queryString language="SQL">
+			<![CDATA[select*from tbl_absensi]]>
+		</queryString>
+		<field name="nip" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="Nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="alamat" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="jabatan" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="waktu" class="java.sql.Date">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ket" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[select * from tbl_absensi]]>
+	</queryString>
+	<field name="nip" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="alamat" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jabatan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="waktu" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ket" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="71" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="42" width="215" height="24" uuid="0c22015a-a7f7-41ca-9c4f-f3b9c540efa7"/>
+				<textElement>
+					<font size="15" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[dibuat oleh @miegagateam]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="10" width="359" height="32" uuid="ee589eef-3305-494f-8cb0-de88cc868b93"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ABSENSI DEVA FRESH JUICE]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="64" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 4" style="table 4" x="9" y="6" width="360" height="50" uuid="7484b45d-6014-46e7-bbf1-d64e9879924e"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset_Absensi" uuid="dd892711-8e8f-40ac-b60c-6ab7fbc1dcbe">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="90" uuid="87c7d32b-287e-471a-b84a-84f8677e502d">
+						<jr:columnHeader style="table 4_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="b956a76f-2ec7-43a7-bd64-ce73bb240dc2"/>
+								<text><![CDATA[nip]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="f073d1a8-5a15-453c-842a-a8a7f49755c6"/>
+								<textFieldExpression><![CDATA[$F{nip}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="f9b8b6c0-1229-43d5-8dc7-de342f22c90e">
+						<jr:columnHeader style="table 4_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="8c549945-e7ac-4845-8e11-3251564082b6"/>
+								<text><![CDATA[Nama]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="3b24beef-d644-4cc7-90aa-bfc574b1cb57"/>
+								<textFieldExpression><![CDATA[$F{Nama}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="a4028fc1-c216-4893-836d-3aa95bf161f6">
+						<jr:columnHeader style="table 4_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="c48fc4d1-a8e0-48bb-9a9f-fe25c9fac335"/>
+								<text><![CDATA[alamat]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="4f760ccc-8b29-4bc5-ba00-ff368376f97c"/>
+								<textFieldExpression><![CDATA[$F{alamat}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="41662f30-72fb-4eee-86cc-903e8cb4143f">
+						<jr:columnHeader style="table 4_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="d025cff4-e4b7-47e4-a6aa-0a8c0d38dc33"/>
+								<text><![CDATA[jabatan]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="dd7ff07e-19b6-49da-96a6-ca655b2182b1"/>
+								<textFieldExpression><![CDATA[$F{jabatan}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="b26bca0c-8e5f-4330-b8cc-61bf41d73885">
+						<jr:columnHeader style="table 4_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="8444136d-950a-4bf6-9fa5-e4fa9d39fb32"/>
+								<text><![CDATA[waktu]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="2155b40b-80e7-4084-bca9-7fa90fee093d"/>
+								<textFieldExpression><![CDATA[$F{waktu}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="794864d7-744b-4dca-a80a-cfef67d480bd">
+						<jr:columnHeader style="table 4_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="034431c7-e76e-4f6f-bab9-e5653b834028"/>
+								<text><![CDATA[ket]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="d311a998-d68a-4700-9570-d509590e78de"/>
+								<textFieldExpression><![CDATA[$F{ket}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
